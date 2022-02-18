@@ -47,12 +47,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/TEAM_KERALA'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+  
     ],[
-        InlineKeyboardButton('Delpoy 🛠', url='https://t.me/TEAM_KERALA')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('💥ᗪOᑎ Տᗩᗷ💥', callback_data="help")
     ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
