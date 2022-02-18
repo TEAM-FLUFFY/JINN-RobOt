@@ -21,13 +21,13 @@ For More Details Click Help Button Below..
 -> Add Me To Your Desired Channel
 </i>
 
-    ABOUT_TEXT = """<b>➥ Name</b> : <code> 🇨🇷ᒍIᑎᑎ</code>
+    ABOUT_TEXT = """➥ Name</b> : <code> 🇨🇷ᒍIᑎᑎ</code>
     
-<b>➥ Creator</b> : <b><i><a href="https://t.me/TEAM_KERALA">ᖴᑌᑕK Oᖴᖴ🇨🇷[𝗢𝗙𝗙𝗟𝗜𝗡𝗘]</a></i></b>
+<b>➥ Creator</b> : <a href="https://t.me/TEAM_KERALA">ᖴᑌᑕK Oᖴᖴ🇨🇷[𝗢𝗙𝗙𝗟𝗜𝗡𝗘]</a>
 
 <b>➥ Language</b> : <code>Python3</code>
 
-<b>➥ Library</b> : <i><a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a></i>
+<b>➥ Library</b> : <a href="https://docs.pyrogram.org">Pyrogram Asyncio 1.13.0 </a>
 
-<b>➥ Source Code</b> : <i><a href="https://github.com/TEAM-FLUFFY/JINN-RobOt">JINN-RobOt</a></i>
+<b>➥ Source Code</b> : <a href="https://github.com/TEAM-FLUFFY/JINN-RobOt">JINN-RobOt</a>
 """
