@@ -181,17 +181,7 @@ async def auto_filter(bot: Client, update: Message):
                 chat_name = y["chat_name"]
                 invite_link = y["invite_link"]
                 
-                if ((len(ibuttons)%2) == 0):
-                    ibuttons.append(
-                        [
-                            
-                        ]
-                    )
-
-                else:
-                    
-                        
-                    )
+                
                 
             for x in ibuttons:
                 result[0].insert(0, x) #Insert invite link buttons at first of page
