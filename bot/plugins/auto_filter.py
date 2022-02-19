@@ -189,7 +189,7 @@ async def auto_filter(bot: Client, update: Message):
                     )
 
                 else:
-                    ibuttons[-1].append(
+                    
                         
                     )
                 
