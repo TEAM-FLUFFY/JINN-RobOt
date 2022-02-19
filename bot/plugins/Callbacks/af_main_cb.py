@@ -114,23 +114,7 @@ async def cb_navg(bot, update: CallbackQuery):
             chat_name = y["chat_name"]
             invite_link = y["invite_link"]
             
-            if ((len(ibuttons)%2) == 0):
-                ibuttons.append(
-                    [
-                        InlineKeyboardButton
-                            (
-                                f"{chat_name}", url=invite_link,
-                            )
-                    ]
-                )
 
-            else:
-                ibuttons[-1].append(
-                    InlineKeyboardButton
-                        (
-                            f"{chat_name}", url=invite_link
-                        )
-                )
             
         for x in ibuttons:
             temp_results.insert(0, x)
