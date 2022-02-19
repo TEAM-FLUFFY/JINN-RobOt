@@ -51,10 +51,8 @@ async def start(bot, update):
     buttons = [[
   
     ],[
-        InlineKeyboardButton('💥ᗪOᑎ Տᗩᗷ💥', callback_data="help"),
-        ],[
         InlineKeyboardButton('➕️ᗩᗪᗪ ᗰᗴ➕️', url="http://t.me/JINN_ahAutoFilterBOT?startgroup=true"
-        ]]
+    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
