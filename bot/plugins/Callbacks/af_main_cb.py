@@ -413,10 +413,8 @@ async def callback_data(bot, update: CallbackQuery):
     if query_data == "start":
         buttons = [[
         ],[
-            InlineKeyboardButton('🎗️ ᗩᗪᗪ ᗰᗴ 🎗️', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true'),
-    ],[
-        InlineKeyboardButton('🤠 ᗩᗷOᑌT 🤠', callback_data='about')
-    
+            InlineKeyboardButton('🎗️ ᗩᗪᗪ ᗰᗴ 🎗️', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true')
+        ]]   
         reply_markup = InlineKeyboardMarkup(buttons)
         
         await update.message.edit_text(
