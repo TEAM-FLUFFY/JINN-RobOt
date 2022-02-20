@@ -51,18 +51,6 @@ async def start(bot, update):
     ],[
         InlineKeyboardButton('▪️ ᕼᗴᒪᑭ ▪️', callback_data="help")
     ]]
-    await query.message.edit_text(
-            text="⭗ ⭗ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⭗ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿"
-        )
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(
