@@ -35,10 +35,8 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    "💞Տᕼᗩᖇᗴ", url="""https://t.me/share/url?url=😱%20സിനിമ%20അധോലോകം%20😱%0A%0Aഏത്%20അർധരാത്രി%20ചോദിച്ചാലും%20പടം%20കിട്ടും,%20ലോകത്തിലെ%20ഒട്ടുമിക്ക%20ഭാഷകളിലുമുള്ള%20സിനിമകളുടെ%20കളക്ഷൻ..%20❤️%0A%0A👇%20GROUP%20LINK%20👇%0A@TEAM_KERALA%0A@ADHOLOKAMHDCHANNEL%0A@ADHOLOKAMHD"""
+                                    'Developers', url="https://t.me/CrazyBotsz"
                                 )
-
-
                         ]
                     ]
                 )
@@ -49,10 +47,13 @@ async def start(bot, update):
         return
 
     buttons = [[
-  
+        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
-        InlineKeyboardButton("➕️ᗩᗪᗪ ᗰᗴ➕️", url="http://t.me/JINN_ahAutoFilterBOT?startgroup=true"
-        ]]
+        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+    ],[
+        InlineKeyboardButton('Help ⚙', callback_data="help")
+    ]]
     
     reply_markup = InlineKeyboardMarkup(buttons)
     
