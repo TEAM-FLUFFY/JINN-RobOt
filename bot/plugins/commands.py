@@ -47,14 +47,22 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('➕ ᗩᗪᗪ ᗰᗴ ➕', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true')
+        InlineKeyboardButton('➕ ᗩᗪᗪ ᗰᗴ ➕', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true'),
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
-    ],[
-        InlineKeyboardButton('Help ⚙', callback_data="help")
+        InlineKeyboardButton('▪️ ᕼᗴᒪᑭ ▪️', callback_data="help")
     ]]
-    
+    await query.message.edit_text(
+            text="⭗ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⭗ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⭗"
+        )
+        await query.message.edit_text(
+            text="⦿ ⦿ ⦿"
+        )
     reply_markup = InlineKeyboardMarkup(buttons)
     
     await bot.send_message(
