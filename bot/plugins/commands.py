@@ -47,8 +47,9 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('⚠️ ᗩᗪᗪ ᗰᗴ ⚠️', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true'),
+        InlineKeyboardButton('🎗️ ᗩᗪᗪ ᗰᗴ 🎗️', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true'),
     ],[
+        InlineKeyboardButton('🤠 ᗩᗷOᑌT 🤠', callback_data='about')
     ]]
     reply_markup = InlineKeyboardMarkup(buttons)
     
@@ -66,7 +67,7 @@ async def start(bot, update):
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
-        InlineKeyboardButton('About 🚩', callback_data='about')
+        InlineKeyboardButton('About 🚩', callback_data='help')
     ],[
         InlineKeyboardButton('Close 🔐', callback_data='close')
     ]]
