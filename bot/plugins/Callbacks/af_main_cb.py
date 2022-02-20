@@ -413,8 +413,9 @@ async def callback_data(bot, update: CallbackQuery):
     if query_data == "start":
         buttons = [[
         ],[
-            InlineKeyboardButton('💥ᗪOᑎ Տᗩᗷ💥', callback_data="help")
-        ]]
+            InlineKeyboardButton('🎗️ ᗩᗪᗪ ᗰᗴ 🎗️', url ='http://t.me/JINN_ahAutoFilterBOT?startgroup=true'),
+    ],[
+        InlineKeyboardButton('🤠 ᗩᗷOᑌT 🤠', callback_data='about')
     
         reply_markup = InlineKeyboardMarkup(buttons)
         
